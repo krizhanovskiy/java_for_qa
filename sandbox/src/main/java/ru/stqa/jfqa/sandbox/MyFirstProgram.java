@@ -2,29 +2,30 @@ package ru.stqa.jfqa.sandbox;
 
 public class MyFirstProgram {
 
+
+
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 
 		name("Vladimir");
 		name("Natasha");
 
-		Double lenght = 2.0;
-		System.out.println("Площадь квардрата со стороной " + lenght + " = " + area(lenght));
+		Square s = new Square(5.0);
+		System.out.println("Площадь квардрата со стороной " + s.l + " = " + area(s));
 
-		Double a = 2.0;
-		Double b = 3.0;
-		System.out.println("Площадь прямоугольника со сторонами " + a + " и " + b + " = " + area(a, b));
+		Rectangle r = new Rectangle(5.0, 6.0);
+		System.out.println("Площадь прямоугольника со сторонами " + r.a + " и " + r.b + " = " + area(r));
 	}
 
 	public static void name(String name) {
 		System.out.println("Hello " + name);
 	}
 
-	public static double area(Double lenght) {
-		return lenght * lenght;
+	public static double area(Square s) {
+		return s.l * s.l;
 	}
 
-	public static double area(Double a , Double b) {
-		return a * b;
+	public static double area(Rectangle r) {
+		return r.a * r.b;
 	}
 }
