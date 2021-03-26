@@ -1,0 +1,2 @@
+ru/stqa/jfqa/sandbox/SquareTests.java
+ ru.stqa.jfqa.sandbox.SquareTests
