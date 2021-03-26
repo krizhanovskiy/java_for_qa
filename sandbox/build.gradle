@@ -1,11 +1,11 @@
 apply plugin: 'java'
 apply plugin: 'application'
 mainClassName = "MyFirstProgram"
-//buildscript {
-//    dependencies {
-//        // classpath 'com.android.tools.build:gradle:6.8.3'
-//        classpath 'com.android.tools.build:gradle:6.8.3'
-//        // NOTE: Do not place your application dependencies here; they belong
-//        // in the individual module build.gradle files
-//    }
-//}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.4.0'
+}
