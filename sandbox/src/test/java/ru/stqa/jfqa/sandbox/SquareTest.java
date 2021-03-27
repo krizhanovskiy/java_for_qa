@@ -3,7 +3,7 @@ package ru.stqa.jfqa.sandbox;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SquareTests {
+public class SquareTest {
 
     @Test
     public void testArea() {

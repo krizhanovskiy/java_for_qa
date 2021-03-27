@@ -1,2 +1,2 @@
-ru/stqa/jfqa/sandbox/SquareTests.java
- ru.stqa.jfqa.sandbox.SquareTests
+ru/stqa/jfqa/sandbox/SquareTest.java
+ ru.stqa.jfqa.sandbox.SquareTest
